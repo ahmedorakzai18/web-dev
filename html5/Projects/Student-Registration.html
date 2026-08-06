@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+    <form action="/action_page.php">
+
+        <label for="studentName">Enter Student Name: </label>
+        <input type="text" id="studentName" name="studentName" placeholder="Enter Name">
+<br>
+<br>
+<br>
+        <label for="studentEmail">Enter Student Email: </label>
+        <input type="email" id="studentEmail" name="studentEmail" placeholder="Enter Email">
+<br>
+<br>
+<br>
+        <label for="studentPassword">Enter Student Password: </label>
+        <input type="password" id="studentPassword" name="studentPassword" placeholder="Enter Password">
+<br>
+<br>
+<br>
+        <label for="studentAge">Enter Student Age: </label>
+        <input type="number" id="studentAge" name="studentAge" placeholder="Enter Age">
+<br>
+<br>
+<br>
+        <label for="studentDOB">Enter Student DOB: </label>
+        <input type="date" id="studentDOB" name="studentDOB">
+<br>
+<br>
+<br>
+        <label>Enter Student's Gender: </label>
+
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label>
+<br>
+<br>
+<br>
+
+        <label>Skills</label><br>
+
+        <input type="checkbox" id="coding" name="coding">
+        <label for="coding">Coding</label><br>
+
+        <input type="checkbox" id="reading" name="reading">
+        <label for="reading">Reading</label><br>
+
+        <input type="checkbox" id="watching" name="watching">
+        <label for="watching">Watching Movies</label><br>
+
+<br>
+<br>
+
+        <label for="country">Student's Nationality</label>
+
+    <select id="country" name="country">
+        <option value="Pakistan">Pakistan</option>
+        <option value="UK">UK</option>
+        <option value="US">US</option>
+        <option value="UAE">UAE</option>
+        <option value="India">India</option>
+    </select>
+
+<br>
+<br>
+
+        <button type="submit">Register</button>
+</form>
+</body>
+</html>
