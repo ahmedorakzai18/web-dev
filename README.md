@@ -18,14 +18,4 @@ Welcome to my central repository for **Web Development** This repository tracks 
 | Folder | Focus / Topics Covered |
 | :--- | :--- |
 | `01-html/` | Boilerplate structures, forms, semantic elements |
-| `02-css/` | Selectors, Flexbox, CSS Grid, responsiveness, animations |
-| `03-javascript/` | Modern JS syntax, DOM manipulation, ES6 features, APIs |
-| `04-projects/` | Complete standalone projects combining HTML, CSS, and JS |
-
----
-
-## 🚀 Projects Overview
-
-Here are a few highlights built during this journey:
-
-* **Portfolio Website:** [Live Demo](https://your-demo-link.com) · [Source Code](./04-projects/portfolio/)
+| `02-css/` | Selectors |
