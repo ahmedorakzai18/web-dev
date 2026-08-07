@@ -1,58 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Basic Learning</title>
-    <link rel=" stylesheet" href="style.css">
+    <title>Learning CSS basics</title>
+
+    
+    <link rel="stylesheet" href="01style.css">  <!-- This is the first CSS file which include Selectors by name. -->
+    <link rel="stylesheet" href="02style.css">  <!-- This is the second CSS file which include Selectors by id. -->
+    <link rel="stylesheet" href="03Universal-style.css"> <!-- Third link, which is Universal selector. -->
+
+    <!-- Yes we can add multiple CSS files -->
+
 </head>
 <body>
-    
-    <h1>Cascading Style Sheet</h1>
-   
-    <p>Date is: August 5, 2026<br>And i have started Learning CSS for the first time and it seems not very hard.</p>
+    <h1>
+        Cascading Style Sheet
+    </h1>
 
-    <h1>CSS</h1>
+    <ul>
+        <li class="yellowclass">I will put a CSS style on all the Head 1 tag to have the color green.</li>
 
-    <p>Every (head 1) will have the color red cuz of the property defined to it.by CSS in the style file.</p>
-
-    <table>
-        <caption>Student Info</caption>
-        <thead>
-       
-            <tr>
-                <th>Name</th>
-                <th>Roll No</th>
-                <th>GPA</th>
-            </tr>
-        
-        </thead>
-
-        <tbody>
-            <tr>
-                <td>Ali</td>                
-                <td>23</td>                
-                <td>2.8</td>           
-            </tr>
-
-            <tr>
-                <td>Samir</td>                
-                <td>94</td>                
-                <td>1.83</td>           
-            </tr>
-        </tbody>
-
-    </table>
+        <li class="yellowclass">I will put a Css style of all the division tag to have a background color gray.</li>
+    </ul>
 
     <div>
-        <h1>A single Division Tag</h1>
-        <p>this paragraph is inside a division tag.</p>
+        <p>My background color would be gray cuz of the CSS style allied to div.</p>
     </div>
 
-        <div>
-        <h1>Another single Division Tag</h1>
-        <p>this paragraph is also inside another division tag.</p>
+    <div>
+        <table>
+            <caption>Student's Info</caption>
+            <tr>
+                <th>Name</th>
+                <th>Roll Number</th>
+                <th>Grade Point Average</th>
+            </tr>
+
+            <tr>
+                <td>Ali</td>
+                <td>63</td>
+                <td>2.3</td>
+            </tr>
+            
+            <tr>
+                <td>Rashid</td>
+                <td>25</td>
+                <td>2.9</td>
+            </tr>
+            
+            <tr>
+                <td>Mahad</td>
+                <td>52</td>
+                <td>2.1</td>
+            </tr>
+            
+        </table>
     </div>
 
+    <p id="p01">
+        This paragraph has an Id related to it.
+    </p>
+    
+    <a href="https://google.com/">Click to My LinkedIn profile.</a>
+    
 </body>
 </html>
