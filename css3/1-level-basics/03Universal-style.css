@@ -1,0 +1,8 @@
+/* Universal Selector means any property it has will be applied to all the document */
+
+/* Syntax: */  
+
+*{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+}

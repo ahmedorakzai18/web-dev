@@ -1,0 +1,14 @@
+/* Another CSS file which include Selectors by id. */
+/* Whichever Element has this id, will have the property */
+
+#p01
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffff00; /* Here we used Hexadecimal color code */
+}
+
+/* Here we used a Class Selector */
+.yellowclass
+{
+    color: yellow;
+}
