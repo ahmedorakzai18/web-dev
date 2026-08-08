@@ -1,0 +1,60 @@
+#dd
+{
+    background-color: antiquewhite;
+    display: inline;
+}
+
+button
+{
+    display: block;
+}
+
+#d1
+{
+    background-color: rgb(52, 251, 211);
+    width: 100px;
+    height: 100px;
+    border-color: brown;
+    border-style: dashed;
+    margin-bottom: 20px;
+    padding: 25px;
+}
+#d2
+{
+    background-color: rgb(86, 61, 31);
+    width: 100px;
+    height: 100px;
+    border-color: brown;
+    border-style: dashed;
+    margin-bottom: 20px;
+    padding: 25px;
+
+    visibility: none;  /*Removes the whole thing, Butspace is reserved */
+    display: none; /* Just removes the whole thing, not even space is reserved */
+
+}
+#d3
+{
+    background-color: rgb(225, 0, 0);
+    width: 100px;
+    height: 100px;
+    border-color: brown;
+    border-style: dashed;
+    margin-bottom: 20px;
+    padding: 25px;
+}
+
+#d4
+{
+
+    /* Alpha(a) means the opacity or transparency level of a color */
+    /* It goes from 0 to 1 */
+
+    background-color: rgba(225, 0, 0,0.25);
+    width: 100px;
+    height: 100px;
+    border-color: brown;
+    border-style: dashed;
+    margin-bottom: 20px;
+    padding: 25px;
+}
