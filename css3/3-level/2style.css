@@ -1,0 +1,77 @@
+div {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 9px;
+  border: 3px solid rgb(247, 150, 150);
+  display: inline-block;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#box1 {
+  background-color: aqua;
+  position: relative;
+  top: 50px;
+}
+#box2 {
+  background-color: blueviolet;
+  position: relative;
+  right: 50px;
+}
+#box3 {
+  background-color: chartreuse;
+  position: relative;
+  bottom: 50px;
+}
+#box4 {
+  background-color: darkgrey;
+  position: relative;
+  right: 60px;
+}
+
+#container1 {
+  text-align: center;
+  display: inline-block;
+
+  /* Absolute position tag gives the position from the root element */
+  /* It basically shows how much space in between from the top to leave */
+
+  position: absolute;
+  top: 50px; /* Position from the top of the page */
+}
+
+#container2 {
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  /* this will have 50 pixels of space from the right */
+  right: 50px; /* Position from the right of the page */
+}
+
+#container3 {
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  /* this will have 50 pixels of space from the bottom */
+  bottom: 50px; /* Position from the bottom of the page */
+}
+
+#container4 {
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  left: 50px; /* it will show you the container to be 50 pixels away from the left */
+}
+
+#container5 {
+  text-align: center;
+  display: inline-block;
+  position: fixed;
+  top: 0px; /* this one will be Fixed to the top side of the page cuz of no space given to it. and also when i scroll down on the page it will come down cuz of the fixed position I gave it.*/
+}
+
+#container6 {
+  text-align: center;
+  display: inline-block;
+  position: fixed;
+  bottom: 0px;
+}
