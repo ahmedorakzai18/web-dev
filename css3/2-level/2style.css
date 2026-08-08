@@ -1,0 +1,13 @@
+p
+{
+    border:2px;
+    border-style: dotted;
+    border-color:rgb(6, 49, 49); 
+    border-radius: 7px;
+
+    /* the area between txt and border */
+    padding: 10px;  /* for the whole (top,right,bottom,left)>>>Clock-wise */
+
+    padding-left: 20px;
+
+}

@@ -1,7 +1,33 @@
+h1
+{
+    text-align: center;
+    border: 2px;
+    border-color: blueviolet;
+    border-style: groove;
+    border-width: 7px;
+    border-radius: 10px;
+}
+
 ul
 {
     color:purple; 
     font-family:Arial, Helvetica, sans-serif; 
     text-align: center;
     text-decoration: underline;
+
+    /* to write the stuff of border in one line */
+    border:blueviolet,groove,3px;
+    border-radius: 20px;
+
+}
+
+p
+{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(149, 252, 252);
+    border-color: brown;
+    border-style:dotted;
+    border-width: 2px;
+    
 }
