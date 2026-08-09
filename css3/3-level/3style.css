@@ -16,7 +16,7 @@
 
 #box2 {
   background-color: blue;
-  border: 1px solid black;
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 10px;
   display: inline-block;
   width: 100px;

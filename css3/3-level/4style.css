@@ -1,0 +1,45 @@
+#square1 {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: lightblue;
+  background-size: cover;
+  background-image: url("tiger.jpg");
+  display: inline-block;
+}
+
+#square2 {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(129, 0, 84);
+  background-image: url("cat.jpg");
+  background-size: cover;
+  display: inline-block;
+}
+#square3 {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(73, 127, 144);
+  background-image: url("panda.jpg");
+  background-size: contain;
+  display: inline-block;
+}
+#square4 {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(133, 19, 226);
+  background-image: url("rabbit.jpg");
+  background-size: cover;
+  display: inline-block;
+}
