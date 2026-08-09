@@ -21,11 +21,13 @@ div {
   background-color: chartreuse;
   position: relative;
   bottom: 50px;
+  z-index: 4; /* this will be on top and 3rd box will be below it */
 }
 #box4 {
   background-color: darkgrey;
   position: relative;
   right: 60px;
+  z-index: 3;
 }
 
 #container1 {
@@ -75,3 +77,4 @@ div {
   position: fixed;
   bottom: 0px;
 }
+
