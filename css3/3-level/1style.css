@@ -1,19 +1,17 @@
-#box1
-{
-    height: 100px;
-    width: 50px;
-    background-color: green;
-    display: block;
+#box1 {
+  height: 100px;
+  width: 50px;
+  background-color: green;
+  display: block;
 
-    font-size: 15px;
+  font-size: 15px;
 }
 
-#box2
-{
-    height: 50px;
-    width: 30%; /* 30% of the parent container's width. */
-    background-color: aqua;
-    display: block;
-    font-size: 2em; 
-    font-size: 5rem; /* Means 5 times the root element's font size */
+#box2 {
+  height: 50px;
+  width: 30%; /* 30% of the parent container's width. */
+  background-color: aqua;
+  display: block;
+  font-size: 2em;
+  font-size: 5rem; /* Means 5 times the root element's font size */
 }
