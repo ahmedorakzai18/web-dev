@@ -1,17 +1,15 @@
-*{
-    color: white;
-    text-decoration: none;
+* {
+  color: white;
+  text-decoration: none;
 }
 
-div{
-    background-color: black;
-    height: 30px;
+div {
+  background-color: black;
+  height: 30px;
 }
 
-.nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
-    
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
