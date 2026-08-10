@@ -7,16 +7,16 @@ body {
   height: 200px;
   width: 800px;
   display: flex;
-  flex-direction: row; /* Row is always the default */
+  flex-direction: row ; /* Row is always the default */
 
   /* it can be: flex-direction: column; , flex-direction: row-reverse; , flex-direction: column-reverse; */
   justify-self: center; /* it can be: flex-start, flex-end, center, space-between, space-around, space-evenly */
 
-  justify-content: space-evenly; /* it can be: flex-start, flex-end, center, space-between, space-around, space-evenly */
+  justify-content: space-between; /* it can be: flex-start, flex-end, center, space-between, space-around, space-evenly */
 
   align-items:stretch; /* it can be: flex-start, flex-end, center */
   align-content: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 } 
 
 div {
