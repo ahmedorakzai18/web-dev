@@ -1,0 +1,41 @@
+body{
+    text-align:center;
+}
+
+div{
+    border: 1px solid black;
+    display:inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+#container{
+    border: 2px solid black;
+    width: 800px; 
+    height:200px;
+
+    display:flex;
+    flex-direction:row;
+    justify-self: center;
+    justify-content: space-around;
+}
+
+#box1{
+    background-color:darkgreen;
+}
+
+#box2{
+    background-color:darkblue;
+}
+
+#box3{
+    background-color:darkred;
+}
+
+#box4{
+    background-color:darkorange;
+}
+
+#box5{
+    background-color:darkviolet;
+}
