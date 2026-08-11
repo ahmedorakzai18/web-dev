@@ -1,24 +1,22 @@
-div{
-    width:100px; 
-    height: 100px;
+div {
+  width: 100px;
+  height: 100px;
 
-    border:2px solid black; 
-    border-radius: 4px;
+  background-color: bisque;
 
-    background-color: brown;
+  border: 2px solid black;
 
-    /* Transition Shorthand */
-    transition:all 2s ease-in 1s;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease-in;
+
+  
 }
 
-div:hover{
-    background-color: chartreuse;
-    font-family: cursive;
+div:hover {
+  background-color: aqua;
 
-}
+  align-self: center;
 
-div:active{
-    background-color:purple;
-    font-family:'Times New Roman', Times, serif;
-
+  font-size: 20px;
 }

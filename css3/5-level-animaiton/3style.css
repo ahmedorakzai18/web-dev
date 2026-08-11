@@ -1,0 +1,27 @@
+div {
+  width: 100px;
+  height: 100px;
+
+  background-color: beige;
+
+  border: 2px solid black;
+  border-radius: 12px;
+
+  position: absolute;
+  left: 100px;
+  top: 100px;
+
+  text-align: center;
+
+  display: inline-block;
+
+  transition: all 1.3s ease-out;
+}
+
+div:hover {
+  background-color: rgb(224, 140, 30);
+  color: snow;
+
+  /* We write it all in one line cuz it overrides and cancels out the last properties. */
+  transform: rotate(25deg) scale(1.25, 1.25) translate(40px);
+}
