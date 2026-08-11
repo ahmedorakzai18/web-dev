@@ -1,0 +1,24 @@
+div{
+    width:100px; 
+    height: 100px;
+
+    border:2px solid black; 
+    border-radius: 4px;
+
+    background-color: brown;
+
+    /* Transition Shorthand */
+    transition:all 2s ease-in 1s;
+}
+
+div:hover{
+    background-color: chartreuse;
+    font-family: cursive;
+
+}
+
+div:active{
+    background-color:purple;
+    font-family:'Times New Roman', Times, serif;
+
+}
