@@ -1,29 +1,30 @@
 /* Here we added Selectors, Properties and Values */
 /* We used Selector names here */
-p
-{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+p {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-div
-{
-    background-color: gray;
-    font-weight: normal;
+div {
+  background-color: gray;
+  font-weight: normal;
 }
-a{
-text-decoration:none;}
-    #Identity1
-    {
-        color:aqua;
-    }
-
-.sechead
-{
-    text-align:center;
+a {
+  text-decoration: none;
+}
+#Identity1 {
+  color: aqua;
 }
 
-table,th,tr,td,caption
-{
-    border: 1px solid black;
-    border-collapse:collapse; 
+.sechead {
+  text-align: center;
 }
 
+table,
+th,
+tr,
+td,
+caption {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
