@@ -1,0 +1,24 @@
+#outer{
+    border: 2px solid black;
+    background-color: aquamarine;
+    width: 400;
+    height: 400px;
+    
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+    align-items: center;
+}
+
+#inner{
+    border: 2px solid black;
+    background-color: rgb(4, 0, 255);
+    width: 100px;
+    height: 100px;
+    
+
+    
+}

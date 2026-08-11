@@ -1,0 +1,17 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+
+    justify-self: center;
+
+    align-items: center;
+}
+
+@media(min-width: 600px) {
+div{
+    background-color: red;
+}
+}
