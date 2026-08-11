@@ -1,0 +1,25 @@
+div {
+  width: 60px;
+  height: 60px;
+
+  background-color: gray;
+
+  border: 5px solid black;
+  border-bottom: 5px solid blue;
+  border-radius: 100px;
+
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transform: rotate(0deg);
+
+  animation: AnimateSpin 0.75s ease-in-out 0s infinite normal;
+}
+
+@keyframes AnimateSpin {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
