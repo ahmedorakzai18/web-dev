@@ -1,64 +1,95 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forms</title>
-</head>
-<body>
+    <link rel="stylesheet" href="style-goat.css" />
+  </head>
+  <body>
     <form>
+      <div class="form-group name-group">
         <label for="name">What is your Name: </label>
-        <input type="text" id="name">
+        <input type="text" id="name" />
+      </div>
 
-        <br><br>
+      <div class="form-group radio-group">
+        <span class="question-label">Who is the GOAT in Football?</span>
+        <div class="radio-option">
+          <input type="radio" id="cristiano" name="the GOAT" />
+          <label for="cristiano">Cristiano</label>
+        </div>
+        <div class="radio-option">
+          <input type="radio" id="messi" name="the GOAT" />
+          <label for="messi">Messi</label>
+        </div>
+      </div>
 
-        Who is the GOAT in Football?
-        <br>
-        <input type="radio" name="the GOAT"> Cristiano
-        <br>
-        <input type="radio" name="the GOAT"> Messi
-        <br><br>
+      <div class="form-group radio-group">
+        <span class="question-label">Who is the 3rd GOAT in Football?</span>
+        <div class="radio-option">
+          <input type="radio" id="neymar" name="3rd" />
+          <label for="neymar">Neymar</label>
+        </div>
+        <div class="radio-option">
+          <input type="radio" id="lewandowski" name="3rd" />
+          <label for="lewandowski">Lewandoski</label>
+        </div>
+        <div class="radio-option">
+          <input type="radio" id="benzema" name="3rd" />
+          <label for="benzema">Benzima</label>
+        </div>
+        <div class="radio-option">
+          <input type="radio" id="r9" name="3rd" />
+          <label for="r9">R9</label>
+        </div>
+        <div class="radio-option">
+          <input type="radio" id="mbappe" name="3rd" />
+          <label for="mbappe">Mbappe</label>
+        </div>
+        <div class="radio-option">
+          <input type="radio" id="suarez" name="3rd" />
+          <label for="suarez">Swarez</label>
+        </div>
+      </div>
 
-         Who is the 3rd GOAT in Football?
-        <br>
-        <input type="radio" name="3rd"> Neymar
-                <br>
-        <input type="radio" name="3rd"> Lewandoski
-                <br>
-        <input type="radio" name="3rd"> Benzima
-                <br>
-        <input type="radio" name="3rd"> R9
-                <br>
-        <input type="radio" name="3rd"> Mbappe
-                <br>
-        <input type="radio" name="3rd"> Swarez
-                <br>
-                <br>
+      <div class="form-group password-group">
+        <label for="password">What is the PassWord?</label>
+        <input type="password" id="password" placeholder="Password" />
+      </div>
 
-What is the PassWord? 
-                <br>
-        <input type="password" placeholder="            Password">
-                <br>
-                <br>
+      <div class="form-group jersey-group">
+        <label for="jersey-number">What is his JERSEY NUMBER?</label>
+        <input type="number" id="jersey-number" placeholder="Jersey Number" />
+      </div>
 
-What is his JERSEY NUMBER?
-                <BR>
-        <input type="number" placeholder="           Jersey Number">
-                <br>
-                <br>
+      <div class="form-group checkbox-group">
+        <span class="question-label">Countries he played in?</span>
+        <div class="checkbox-option">
+          <input type="checkbox" id="france" />
+          <label for="france">FRANCE</label>
+        </div>
+        <div class="checkbox-option">
+          <input type="checkbox" id="poland" />
+          <label for="poland">POLAND</label>
+        </div>
+        <div class="checkbox-option">
+          <input type="checkbox" id="brazil" />
+          <label for="brazil">BRAZIL</label>
+        </div>
+        <div class="checkbox-option">
+          <input type="checkbox" id="uruguay" />
+          <label for="uruguay">URUGUAY</label>
+        </div>
+        <div class="checkbox-option">
+          <input type="checkbox" id="portugal" />
+          <label for="portugal">PORTUGAL</label>
+        </div>
+      </div>
 
-Contries, he played in?
-                <BR>
-        FRANCE
-        <input type="checkbox"><br>POLAND
-        <input type="checkbox"><br>BRAZIL
-        <input type="checkbox"><br>URUGUAY
-        <input type="checkbox"><br>PORTUGAL
-        <input type="checkbox"><br>
-                <br>
-
-        
-        <button>Submit</button>
+      <div class="form-actions">
+        <button type="submit">Submit</button>
+      </div>
     </form>
-</body>
+  </body>
 </html>
