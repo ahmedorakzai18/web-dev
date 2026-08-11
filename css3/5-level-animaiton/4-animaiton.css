@@ -1,0 +1,33 @@
+div {
+  width: 100px;
+  height: 100px;
+  
+  background-color: beige;
+  
+  border: 2px solid black;
+  border-radius: 12px;
+  
+  position: absolute;
+  left: 330px;
+  top: 100px;
+  
+  text-align: center;
+  
+  display: inline-block;
+
+  animation-name: animate;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  
+  /* Shorthand: animaiton: animate 2s ease-in infinite normal */
+
+}
+
+@keyframes animate{
+    from{left:100px; background-color:beige; color: black;}
+    50%{background-color: lawngreen;}
+    to{left:550px; background-color: rgb(123, 70, 0); color:cyan}
+}
+
