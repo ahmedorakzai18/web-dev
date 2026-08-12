@@ -18,5 +18,5 @@ Welcome to my central repository for **Web Development** This repository tracks 
 | Folder | Focus / Topics Covered |
 | :--- | :--- |
 | `01-html/` | Boilerplate structures, forms, semantic elements |
-| `02-css/` | Selectors, Box model in CSS, Display property, Units in CSS, Flexbox |
+| `02-css/` | Selectors, Box model in CSS, Display property, Units in CSS, Flexbox, Animation |
 | `03-js`  | |
