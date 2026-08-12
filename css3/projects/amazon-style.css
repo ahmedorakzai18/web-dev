@@ -1,0 +1,193 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-logo {
+  width: 103px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  background-image: url(Amazon-Logo-White-Transparent.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 100%;
+  width: 100%;
+}
+
+.border {
+  border: 1px solid transparent;
+}
+
+.border:hover {
+  border: 1px solid white;
+  border-radius: 2px;
+}
+
+/* Second Box */
+
+.address-first {
+  font-size: 0.75rem;
+  color: #cccccc;
+  margin-left: 25px;
+}
+
+.address-second {
+  font-size: 1rem;
+  margin-left: 3px;
+}
+
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+
+/* Third Box */
+
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  height: 40px;
+  width: 620px;
+
+  border-radius: 6px;
+
+  background-color: pink;
+}
+
+.nav-search:hover {
+  border: 2px solid #febd68;
+}
+
+.all {
+  font-size: 14px;
+  background-color: #e6e6e6;
+  width: 45px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border: none;
+
+  color: #968f8f;
+
+  text-align: center;
+}
+
+.search-input {
+  width: 100%;
+  font-size: 1rem;
+
+  border: none;
+}
+
+.search-icon {
+  width: 45px;
+  background-color: #febd68;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.2rem;
+
+  color: #0f1111;
+}
+
+/* Box 4 */
+
+.nav-language {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.lang-icon {
+  display: flex;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.lang-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #ffffff;
+  color: #0f1111;
+  width: 180px;
+  border-radius: 4px;
+}
+
+.nav-language:hover .lang-dropdown {
+  display: block;
+}
+
+.lang-option {
+  display: flex;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+/* Box 5 */
+
+.sign-in {
+  width: 114px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+span {
+  font-size: 0.75rem;
+}
+
+.nav-second {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+/* Box 6 */
+
+.returns {
+  width: 77px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+span {
+  font-size: 0.75rem;
+}
+
+/* Box 7 */
+
+.cart {
+  width: 84px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart i {
+  font-size: 25px;
+}

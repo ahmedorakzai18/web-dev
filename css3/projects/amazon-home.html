@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Home-Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+      integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="amazon-style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="nav-logo border">
+          <div class="logo"></div>
+        </div>
+
+        <div class="nav-address border">
+          <p class="address-first">Deliver to</p>
+          <div class="add-icon">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="address-second">Pakistan</p>
+          </div>
+        </div>
+
+        <div class="nav-search">
+          <select class="all">
+            <option>All</option>
+            <option>Arts & Crafts</option>
+            <option>Automotive</option>
+          </select>
+
+          <input placeholder="Search Amazon" class="search-input" />
+
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+
+        <div class="nav-language border">
+          <div class="lang-icon">
+            <i class="fa-solid fa-globe"></i>
+            <span>EN</span>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+
+          <div class="lang-dropdown">
+            <div class="lang-option">
+              <input
+                type="radio"
+                id="en"
+                name="site-language"
+                value="en"
+                checked
+              />
+              <label for="en">English - EN</label>
+            </div>
+            <div class="lang-option">
+              <input type="radio" id="es" name="site-language" value="es" />
+              <label for="es">Español - ES</label>
+            </div>
+            <div class="lang-option">
+              <input type="radio" id="ur" name="site-language" value="ur" />
+              <label for="ur">اردو - UR</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="sign-in border">
+          <p><span>Hello, sign in </span></p>
+          <p class="nav-second">Account & Lists</p>
+        </div>
+
+        <div class="returns border">
+          <p><span>Returns</span></p>
+          <p class="nav-second">& Orders</p>
+        </div>
+
+        <div class="cart border">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <p class="nav-second">Cart</p>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
