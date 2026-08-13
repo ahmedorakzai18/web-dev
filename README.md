@@ -13,6 +13,26 @@ Welcome to my central repository for **Web Development** This repository tracks 
 
 ---
 
+## 🚀 Projects
+
+### 🛒 Amazon Homepage Clone
+
+A front-end clone of the Amazon homepage built using HTML5 and CSS3.
+
+**Technologies:** HTML5, CSS3
+
+📁 [View Project](CSS3/projects/amazon-clone)
+
+### 🎵 Spotify Clone
+
+A front-end practice project built while learning HTML and CSS.
+
+**Technologies:** HTML5, CSS3
+
+📁 [View Project](CSS3/projects/spotify-clone)
+
+---
+
 ## 📂 Repository Structure
 
 | Folder | Focus / Topics Covered |
