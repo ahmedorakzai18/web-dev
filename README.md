@@ -17,25 +17,17 @@ Welcome to my central repository for **Web Development** This repository tracks 
 
 ### 🛒 Amazon Homepage Clone
 
-A front-end clone of the Amazon homepage built using HTML5 and CSS3.
+A front-end clone of the Amazon homepage built.
 
 **Technologies:** HTML5, CSS3
 
-📁 [View Project](CSS3/projects/amazon-clone)
-
-### 🎵 Spotify Clone
-
-A front-end practice project built while learning HTML and CSS.
-
-**Technologies:** HTML5, CSS3
-
-📁 [View Project](CSS3/projects/spotify-clone)
+📁 [View Project](css3/projects/amazon-clone)
 
 ---
 
 ## 📂 Repository Structure
 
-| Folder | Focus / Topics Covered |
+| Folder | Topics Covered |
 | :--- | :--- |
 | `01-html/` | Boilerplate structures, forms, semantic elements |
 | `02-css/` | Selectors, Box model in CSS, Display property, Units in CSS, Flexbox, Animation |
