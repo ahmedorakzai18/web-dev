@@ -36,3 +36,17 @@ Car2.unshift("Mclearn", "Ferrari" , "Rolls");      // This adds at the start
 Car2.shift();      // This deletes from the start
 
 console.log(Car2);
+
+
+console.log(Car2.indexOf("Mercedes"));      // Gives which index "Mercedes" is at, if "Mercedes" is not there, it gives -1.
+
+console.log(Car2.includes("Fordd"));        // Searches the Arrays and tells either true or false if there or not.
+
+
+
+let prime = ["apple" , "banana" , "Cheri"]; 
+let secondary = ["ant" , "bull" , "Cat"]; 
+
+console.log(prime.concat(secondary)); // It adds the two arrays
+
+console.log(prime.reverse());       // It reverse the Elements.
