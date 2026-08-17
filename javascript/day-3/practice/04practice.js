@@ -1,36 +1,36 @@
-//QUESTION: 1
+// QUESTION: 1
 
-let arr1 = [7,9,0,-2] ;
+let arr1 = [7, 9, 0, -2];
 
-let n1 = 3; 
+let n1 = 3;
 
-console.log(arr1.slice(0,n1));
+let x = arr1.slice(0, n1);
 
-//QUESTION: 2
+console.log(x);
 
-let arr2 = [7, 9, 0,-2]; 
+// QUESTION: 2
+
+let arr2 = [7, 9, 0, -2, 324, 42, 52, 412, 22];
 
 let n2 = 3;
 
-console.log(arr2.slice(arr2.length-n2));
+let y = arr2.slice(arr2.length - n2);
 
+console.log(y);
 
 // QUESTION: 3
 
-let str = ""; 
+let strr = "";
 
-if(str.length == 0)
-{
-    console.log("EMPTY");
+if (strr.length == 0) {
+  console.log("Empty");
+} else {
+  console.log("NOT empty");
 }
-else
-{
-    console.log("Not EMPTY");
-}
-
 
 // QUESTION: 4
 
-let ss = prompt("Enter something : "); 
-console.log(`original value of string is ${ss}`); 
-console.log(`changed value of string is ${ss.trim()}`);
+let strrr = "             Please Enter a Message here!   ";
+
+let xyz = strrr.trim();
+console.log(xyz);
