@@ -5,9 +5,9 @@
 //     console.log(fruit); 
 // }
 
-let heys = "Hello World";
+let names = ["abdullah" , "bilal" , "Chandler" , "Daniyal" , "ezhan" , "Fasih" , "Farrukh"];
 
-for(hey of heys)    // this prints each character of the String
+for(name of names)
 {
-    console.log(hey);
+    console.log(name);
 }
