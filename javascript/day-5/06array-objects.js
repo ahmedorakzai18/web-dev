@@ -1,33 +1,20 @@
 const studentInfo = [
     {
-        name : "Abdul",
-        gpa : 1.4,
-        grade : "C"
-    },
-    {   
-        name : "Abid",
-        gpa : 2.14,
-        grade : "B"
+        name:"saim",
+        rol: 32
     },
     {
-        name : "Basit",
-        gpa : 3.21,
-        grade : "A"
-    },
+        name:"sarim",
+        rol: 73},
     {
-        name : "Carlos",
-        gpa : 1.50,
-        grade : "C"
-    }
-];
+        name:"salman",
+        rol: 19},
+    {
+        name:"samir",
+        rol: 10}
+]
+
+studentInfo[3] = {name:"ali", rol:25};
 
 console.log(studentInfo);
-
-console.log("---------------------------");
-
-console.log(studentInfo[2]);
-
-studentInfo[2].name = "Jabbir";     // name updated
-studentInfo[1] = {gender :"male"};
-
-console.log(studentInfo[2]);
+console.log(studentInfo[3]);
