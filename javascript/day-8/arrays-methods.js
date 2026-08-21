@@ -4,7 +4,7 @@ let print = function(ele){
 console.log(ele);
 }; 
 
-// arr.forEach(print);
+arr.forEach(print);
 
 // arr.forEach(function(ele){
 //     console.log(ele);
