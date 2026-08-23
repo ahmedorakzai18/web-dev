@@ -1,12 +1,20 @@
-let x = document.querySelector('#p2');
+let query_id = document.querySelector("#p2");
 
-x.innerText = "you and your Paragraph";
+console.log(query_id);
 
-var y = document.querySelector(".p3");
+query_id.innerText = "I am the Second Paragraph"; 
 
-y.innerText = "nothing";
+// -------------------------------------------------------
+let query_class = document.querySelector(".pc3");
 
-let z = document.querySelectorAll("p")[0];
-let zz = document.querySelectorAll("p")[3];
-z.innerText = "I am a random Paragraph";
-zz.innerText = "I am a random Paragraph";
+query_class.innerText = "I am Changed as Third Paragraph";
+
+console.log(query_class);
+
+// -------------------------------------------------------
+
+let query_tag = document.querySelectorAll("p")[3];
+
+query_tag.innerText = "4th";
+
+console.log(query_tag);
