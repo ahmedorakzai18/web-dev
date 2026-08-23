@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Learning</title>
+</head>
+<body style="background-color: bisque; color: rgb(66, 24, 24);">
+    
+    <h1>DOM Navigation</h1>
+
+    <p><i>The process of moving through the hierarchical tree structure of an HTML document using JavaScript properties</i></p>
+
+    <h3>The Node Tree Relationships</h3>
+    <p>The DOM organizes elements using standard family terminology based on their position.
+        <ul>
+            <li><b>Root Node: </b> The very top of the tree (document), which has no parent.</li>
+            <li><b>Parent: </b> The direct container node located exactly one level above.</li>
+            <li><b>Child: </b> Nodes directly nested inside another element.</li>
+            <li><b>Siblings: </b> Nodes that share the exact same parent element.</li>
+        </ul>
+    </p>
+    <h3 style="text-align: center;">--------BELLOW IS HOW WE DO IT-------</h3>
+
+    <br><hr>
+
+    <div>
+        <h4>I am a heading and also a child node of the div.</h4>
+        <p>Paragraph same parents and <u>h4</u> is my sibling</p>
+        <p>
+            i am another Paragraph with Ordered List.
+            <ol type="i"">
+                <li>
+                    Abc
+                </li>
+                <li>
+                    Xyz
+                </li>
+                <li>
+                    Zzz
+                </li>
+            </ol>
+        </p>
+    </div>
+
+    <script src="9navigation.js">   </script>
+</body>
+</html>
