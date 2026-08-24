@@ -21,7 +21,7 @@ button2.addEventListener("click" , function(){
        console.log("I was clicked to REMOVE the styling to the Document.");
 
     body.style.backgroundColor = "";
-
+    body.style.color = "";
     body.style.fontFamily = "";
 });
 
