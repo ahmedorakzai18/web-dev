@@ -15,23 +15,29 @@ button.addEventListener("click" , function(){
 });
 
 //=====================GIVING EVENT TO BUTTON: 2=====================
+
+let button3 = document.querySelector("#c3");
+
+button3.addEventListener("click" , function(){
+    console.log("I was clicked to REMOVE the styling to the Document.");
+    
+    body.style.backgroundColor = "#00113a";
+    body.style.color = "#f8f2bf"
+    body.style.fontFamily = "Georgia";
+    body.style.border = "2px solid black";
+
+
+});
+
+//=====================GIVING EVENT TO BUTTON: 3=====================
 let button2 = document.querySelector("#c2");
 
-button2.addEventListener("click" , function(){
+button2.addEventListener("dblclick" , function(){
        console.log("I was clicked to REMOVE the styling to the Document.");
 
     body.style.backgroundColor = "";
     body.style.color = "";
     body.style.fontFamily = "";
-});
+    body.style.border = "";
 
-//=====================GIVING EVENT TO BUTTON: 3=====================
-let button3 = document.querySelector("#c3");
-
-button3.addEventListener("click" , function(){
-       console.log("I was clicked to REMOVE the styling to the Document.");
-
-    body.style.backgroundColor = "#00113a";
-    body.style.color = "#f8f2bf"
-    body.style.fontFamily = "Georgia";
 });
