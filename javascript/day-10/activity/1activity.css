@@ -1,0 +1,20 @@
+body {
+  text-align: center;
+}
+
+div {
+  width: 400px;
+  height: 100px;
+
+  border: 1px solid black;
+
+  margin: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+
+  
+
+}
