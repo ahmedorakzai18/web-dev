@@ -8,7 +8,7 @@ let addp = document.createElement("p");
 addp.innerText = "Hey i am red";
 addp.style.color = "red";
 
-body.append(addp);
+body.prepend(addp);
 
 // =========================================
 
@@ -18,7 +18,7 @@ addh3.innerText = "i'm a blue h3";
 
 addh3.style.color = "blue";
 
-body.append(addh3);
+body.prepend(addh3);
 
 // =========================================
 
@@ -30,11 +30,11 @@ let addpara = document.createElement("p");
 addh1.innerText = "i'm in div";
 addpara.innerText = "Me too";
 
-adddiv.append(addh1);
-adddiv.append(addpara);
+adddiv.prepend(addh1);
+adddiv.prepend(addpara);
 
 
 adddiv.style.border = "2px solid black";
 adddiv.style.backgroundColor = "pink";
 
-body.append(adddiv);
+body.prepend(adddiv);
