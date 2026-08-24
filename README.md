@@ -31,4 +31,4 @@ A front-end clone of the Amazon homepage built.
 | :--- | :--- |
 | `01-html/` | Boilerplate structures, forms, semantic elements |
 | `02-css/` | Selectors, Box model in CSS, Display property, Units in CSS, Flexbox, Animation |
-| `03-js`  | |
+| `03-js`  | Conditionals, Methods, Loops, Arrays, Scope, DOM, DOM Events |
