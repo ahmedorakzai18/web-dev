@@ -1,0 +1,85 @@
+:root{
+  --bg:#101216;
+  --card:#0f1720;
+  --green:#00e676;
+  --red:#ff5252;
+  --yellow:#ffd54f;
+  --blue:#448aff;
+  --accent:#e6e6e6;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;
+  background:linear-gradient(180deg,#071021 0%, #0b1020 100%);
+  color:var(--accent);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+}
+
+.app{
+  width:min(520px,95vw);
+  background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.18));
+  border-radius:12px;
+  padding:18px;
+  text-align:center;
+  box-shadow:0 10px 30px rgba(2,6,23,0.7), inset 0 1px 0 rgba(255,255,255,0.02);
+}
+
+.title{margin:0 0 10px 0;font-size:28px}
+
+.controls{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+  margin-bottom:14px;
+}
+.display{
+  width:54px;height:42px;background:#000;border-radius:6px;color:#fffbfb;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:18px;border:2px solid rgba(255,255,255,0.06)
+}
+.control-btn{padding:8px 12px;border-radius:8px;border:none;background:#1f2937;color:var(--accent);cursor:pointer}
+.strict-label{display:flex;align-items:center;gap:8px;font-size:14px}
+
+.board{
+  width:100%;
+  aspect-ratio:1/1;
+  max-width:420px;
+  margin:0 auto 12px auto;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows:1fr 1fr;
+  gap:10px;
+  touch-action: manipulation;
+}
+.pad{
+  border-radius:16px;
+  border:none;
+  transition:transform 120ms ease, box-shadow 120ms ease, filter 120ms ease;
+  box-shadow: 0 6px 18px rgba(2,6,23,0.6);
+  min-height:0; /* for mobile */
+}
+.pad:active{transform:scale(.98)}
+
+.pad-green{background:linear-gradient(180deg, #00c853, var(--green));}
+.pad-red{background:linear-gradient(180deg, #ff3d00, var(--red));}
+.pad-yellow{background:linear-gradient(180deg, #ffd54f, #ffea00);}
+.pad-blue{background:linear-gradient(180deg, #2979ff, var(--blue));}
+
+.pad.active{
+  filter:brightness(1.35) saturate(1.1);
+  transform:translateY(-6px) scale(1.03);
+  box-shadow: 0 18px 40px rgba(2,6,23,0.6);
+}
+
+.message{min-height:20px;font-size:15px;color:rgba(255,255,255,0.9);margin-top:6px}
+.footer{margin-top:8px;color:rgba(255,255,255,0.45)}
+
+@media (max-width:520px){
+  .pad{border-radius:12px}
+  .display{width:46px;height:36px}
+}
