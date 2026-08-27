@@ -23,6 +23,16 @@ A front-end clone of the Amazon homepage built.
 
 📁 [View Project](css3/projects/amazon-clone)
 
+
+### 🎮 Simon Says Game
+
+### 🎮 Simon Says Game
+
+A browser-based memory game built with HTML, CSS, and JavaScript.
+Players must remember and repeat the generated color sequence.
+
+📁 [View Project](javascript/day-11/game)
+
 ---
 
 ## 📂 Repository Structure
