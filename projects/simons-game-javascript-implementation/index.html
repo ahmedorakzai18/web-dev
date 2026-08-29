@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Simon's Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <h1 class="title">Simon</h1>
+
+    <section class="controls">
+      <div class="display">--</div>
+      <button id="start" class="control-btn">Start</button>
+      <label class="strict-label"><input type="checkbox" id="strict"> Strict</label>
+    </section>
+
+    <section class="board" id="board" aria-label="Simon game board">
+      <button class="pad pad-green" data-color="0" aria-label="Green"></button>
+      <button class="pad pad-red" data-color="1" aria-label="Red"></button>
+      <button class="pad pad-yellow" data-color="2" aria-label="Yellow"></button>
+      <button class="pad pad-blue" data-color="3" aria-label="Blue"></button>
+    </section>
+
+    <div class="message" id="message" aria-live="polite"></div>
+
+    <footer class="footer">
+      <small>20 rounds to win • Works on desktop & mobile</small>
+    </footer>
+  </main>
+
+  <script src="app.js" defer></script>
+</body>
+</html> 
