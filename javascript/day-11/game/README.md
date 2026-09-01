@@ -40,12 +40,3 @@ The game generates a random color sequence that the player must remember and rep
 4. Each successful round adds another color to the sequence.
 5. Clicking the wrong button ends the game.
 6. Press any key to restart.
-
-## 📂 Project Structure
-
-```text
-game/
-├── index.html
-├── simon-says.css
-├── simon-says.js
-└── README.md
