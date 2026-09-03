@@ -1,10 +1,8 @@
-div
-{
-    height: 100px;
-    width:  100px;
+div {
+  height: 100px;
+  width: 100px;
 
-    background-color: green;
-    border-style: solid;
-    border-radius: 50px;
-    
+  background-color: green;
+  border-style: solid;
+  border-radius: 50px;
 }
