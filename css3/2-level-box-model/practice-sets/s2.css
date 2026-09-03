@@ -1,31 +1,23 @@
-*
-{
-    color:white;
+* {
+  color: white;
 
-
-
-    padding:0; 
-    margin: 0
-    
+  padding: 0;
+  margin: 0;
 }
 
-div
-{
-    height: 64px;
-    background-color: black;
-
+div {
+  height: 64px;
+  background-color: black;
 }
 
-a
-{
-    margin-right: 50px;
+a {
+  margin-right: 50px;
 }
 
-button
-{
-    margin-right: 40px;
-    background-color: orange;
-    border-color: brown;
-    border-radius: 3px;
-    padding: 1px;
+button {
+  margin-right: 40px;
+  background-color: orange;
+  border-color: brown;
+  border-radius: 3px;
+  padding: 1px;
 }
